@@ -1,7 +1,25 @@
 section{
     border-bottom: 1px solid black;
+    margin: 5vh;
 }
 
 p{
     text-indent: 0.5in;
+}
+
+body{
+    background-color: #aaaabb;
+    margin: 0px;
+}
+
+#main{
+    background-color: white;
+    min-height: 100vh;
+    padding: 1vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+h1, h2{
+    text-align: center;
 }

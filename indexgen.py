@@ -13,7 +13,7 @@ with open("rawindex.html") as file:
         for i in x["id"]:
             if i == '.':
                 pos += 1
-        retnr += "    <a style = \"margin-left: " + str(pos * 20) + "px\" href = \"#" + str(pos) + "\">" + x["id"] + ". " + x.find("h2").contents[0] + "</a><br \>\n"
+        retnr += "    <a style = \"margin-left: " + str(pos * 20) + "px\" href = \"#" + x["id"] + "\">" + x["id"] + ". " + x.find("h2").contents[0] + "</a><br \>\n"
     retnr += "</section>"
     open("index.html", "w+").write(c.replace("<!AUTO_INDEX>", retnr))
 print(retnr)

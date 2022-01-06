@@ -1,2 +1,2 @@
-# the-free-web-project
-Website for the Free Web Project
+# The Free Web Project website
+See https://thefreewebproject.github.io for information.
